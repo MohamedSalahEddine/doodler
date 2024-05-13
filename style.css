@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 400px;
+    height: 600px;
+    background-image: url("./images/doodlejumpbg.png");
+    position: relative;
+}
+
+.doodle{
+    width: 90px;
+    height: 90px;
+    background-image: url('./images/doodler-right.png');
+    position: absolute;
+    z-index: 5;
+}
+
+.plateform{
+    width: 120px;
+    height: 33px;
+    background-image: url("./images/platform.png");
+    position: absolute;
+}
