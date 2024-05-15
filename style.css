@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 .grid{
     width: 400px;
@@ -10,8 +11,8 @@
 }
 
 .doodle{
-    width: 90px;
-    height: 90px;
+    width: 92px;
+    height: 92px;
     background-image: url('./images/doodler-right.png');
     position: absolute;
     z-index: 5;
